@@ -26,6 +26,12 @@
 			</plugin>
 		</plugins>
 	</build>
+	
+	<issueManagement>
+        <system>github</system>
+        <url>https://github.com/M0L1N4/daw2_19-20/issues</url>
+    </issueManagement>
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.xerial</groupId>
