@@ -1,0 +1,28 @@
+{
+	"folders": {},
+	"connections": {
+		"sqlite_jdbc-16d44dda174-5b29188ad1c0862a": {
+			"provider": "generic",
+			"driver": "sqlite_jdbc",
+			"name": "SQLite - sqlite-jdbc-3.27.2.1.jar",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"database": "/Users/alvaro/eclipse-workspace/Daw2_19-20_Servlet/build/lib/sqlite-jdbc-3.27.2.1.jar",
+				"url": "jdbc:sqlite:/Users/alvaro/eclipse-workspace/Daw2_19-20_Servlet/build/lib/sqlite-jdbc-3.27.2.1.jar",
+				"type": "dev",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}
