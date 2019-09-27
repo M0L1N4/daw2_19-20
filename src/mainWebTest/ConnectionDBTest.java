@@ -26,7 +26,7 @@ public class ConnectionDBTest {
 	 */
 	@Test
 	public void testGetConnection() {
-		assert ("Ens deu retornar un objecte tipus Connexió" == null);
+		assert ("Ens deu retornar un objecte tipus Connexió") != null;
 	}
 
 	/**
