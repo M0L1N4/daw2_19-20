@@ -29,27 +29,27 @@ public class ConnectionDB {
 		conn = cnt;
 	}
 	
-	public static void OpenConnection() throws SQLException {
+	public static void openConnection() throws SQLException {
 		DriverManager.registerDriver(new org.sqlite.JDBC());	
 		setConnection(DriverManager.getConnection("jdbc:sqlite:Daw2_DB.db"));
 	}
 	
-	public static void CloseConnection() throws SQLException{
+	public static void closeConnection() throws SQLException{
 		conn.close();
 	}
 
-	public static Statement EmptyStatement() throws SQLException{
+	public static Statement emptyStatement() throws SQLException{
 		Statement st;
 		st = conn.createStatement();
 		return st;
 	}
 	
-	public static ResultSet QueryResults() {
+	public static ResultSet queryResults() {
 		ResultSet rs = null;
 		return rs;
 	}
 	
-	public static Boolean CloseStatementConnection(Statement st, Connection cnt) {
+	public static Boolean closeStatementConnection(Statement st, Connection cnt) {
 		
 		try {
 			st.close();

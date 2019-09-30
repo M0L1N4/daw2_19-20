@@ -17,13 +17,13 @@ public class DataBaseStructure {
 	
 	public static void main(String[] args) throws SQLException {
 		
-		ConnectionDB.OpenConnection();
-		Statement st = ConnectionDB.EmptyStatement();
+		ConnectionDB.openConnection();
+		Statement st = ConnectionDB.emptyStatement();
 		
 		st.execute("CREATE TABLE IF NOT EXISTS Users (cod_user INTEGER PRIMARY KEY AUTOINCREMENT, "
 				+ "nick varchar(25), pass varchar(20), email varchar(50));");
 		
-		ConnectionDB.CloseStatementConnection(st,ConnectionDB.getConnection());
+		ConnectionDB.closeStatementConnection(st,ConnectionDB.getConnection());
 	}
 	
 	

@@ -38,7 +38,7 @@ public class ConnectionDBTest {
 	}
 
 	/**
-	 * Test method for {@link mainWeb.ConnectionDB#OpenConnection()}.
+	 * Test method for {@link mainWeb.ConnectionDB#openConnection()}.
 	 */
 	@Test
 	public void testOpenConnection() {
@@ -46,7 +46,7 @@ public class ConnectionDBTest {
 	}
 
 	/**
-	 * Test method for {@link mainWeb.ConnectionDB#CloseConnection()}.
+	 * Test method for {@link mainWeb.ConnectionDB#closeConnection()}.
 	 */
 	@Test
 	public void testCloseConnection() {
@@ -54,7 +54,7 @@ public class ConnectionDBTest {
 	}
 
 	/**
-	 * Test method for {@link mainWeb.ConnectionDB#EmptyStatement()}.
+	 * Test method for {@link mainWeb.ConnectionDB#emptyStatement()}.
 	 */
 	@Test
 	public void testEmptyStatement() {
@@ -62,7 +62,7 @@ public class ConnectionDBTest {
 	}
 
 	/**
-	 * Test method for {@link mainWeb.ConnectionDB#QueryResults()}.
+	 * Test method for {@link mainWeb.ConnectionDB#queryResults()}.
 	 */
 	@Test
 	public void testQueryResults() {
@@ -70,7 +70,7 @@ public class ConnectionDBTest {
 	}
 
 	/**
-	 * Test method for {@link mainWeb.ConnectionDB#CloseStatementConnection(java.sql.Statement, java.sql.Connection)}.
+	 * Test method for {@link mainWeb.ConnectionDB#closeStatementConnection(java.sql.Statement, java.sql.Connection)}.
 	 */
 	@Test
 	public void testCloseStatementConnection() {
