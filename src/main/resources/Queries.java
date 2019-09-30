@@ -1,7 +1,7 @@
 /**
  * 
  */
-package mainWeb;
+package main.resources;
 
 import java.sql.SQLException;
 

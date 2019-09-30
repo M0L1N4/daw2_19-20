@@ -1,4 +1,4 @@
-package mainWeb;
+package main.resources;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

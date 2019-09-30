@@ -14,7 +14,7 @@ import org.junit.Test;
 public class ConnectionDBTest {
 
 	/**
-	 * Test method for {@link mainWeb.ConnectionDB#ConnectionDB()}.
+	 * Test method for {@link main.resources.ConnectionDB#ConnectionDB()}.
 	 */
 	@Test
 	public void testConnectionDB() {
@@ -22,7 +22,7 @@ public class ConnectionDBTest {
 	}
 
 	/**
-	 * Test method for {@link mainWeb.ConnectionDB#getConnection()}.
+	 * Test method for {@link main.resources.ConnectionDB#getConnection()}.
 	 */
 	@Test
 	public void testGetConnection() {
@@ -30,7 +30,7 @@ public class ConnectionDBTest {
 	}
 
 	/**
-	 * Test method for {@link mainWeb.ConnectionDB#setConnection(java.sql.Connection)}.
+	 * Test method for {@link main.resources.ConnectionDB#setConnection(java.sql.Connection)}.
 	 */
 	@Test
 	public void testSetConnection() {
@@ -38,7 +38,7 @@ public class ConnectionDBTest {
 	}
 
 	/**
-	 * Test method for {@link mainWeb.ConnectionDB#openConnection()}.
+	 * Test method for {@link main.resources.ConnectionDB#openConnection()}.
 	 */
 	@Test
 	public void testOpenConnection() {
@@ -46,7 +46,7 @@ public class ConnectionDBTest {
 	}
 
 	/**
-	 * Test method for {@link mainWeb.ConnectionDB#closeConnection()}.
+	 * Test method for {@link main.resources.ConnectionDB#closeConnection()}.
 	 */
 	@Test
 	public void testCloseConnection() {
@@ -54,7 +54,7 @@ public class ConnectionDBTest {
 	}
 
 	/**
-	 * Test method for {@link mainWeb.ConnectionDB#emptyStatement()}.
+	 * Test method for {@link main.resources.ConnectionDB#emptyStatement()}.
 	 */
 	@Test
 	public void testEmptyStatement() {
@@ -62,7 +62,7 @@ public class ConnectionDBTest {
 	}
 
 	/**
-	 * Test method for {@link mainWeb.ConnectionDB#queryResults()}.
+	 * Test method for {@link main.resources.ConnectionDB#queryResults()}.
 	 */
 	@Test
 	public void testQueryResults() {
@@ -70,7 +70,7 @@ public class ConnectionDBTest {
 	}
 
 	/**
-	 * Test method for {@link mainWeb.ConnectionDB#closeStatementConnection(java.sql.Statement, java.sql.Connection)}.
+	 * Test method for {@link main.resources.ConnectionDB#closeStatementConnection(java.sql.Statement, java.sql.Connection)}.
 	 */
 	@Test
 	public void testCloseStatementConnection() {

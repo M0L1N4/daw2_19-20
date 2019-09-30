@@ -1,4 +1,4 @@
-package mainWeb;
+package main.resources;
 
 import java.io.IOException;
 import java.sql.SQLException;
@@ -11,6 +11,11 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * Servlet implementation class FrontFace
+ * 
+ * 
+ * 
+ * sonar cloud token:
+ * 
  */
 @WebServlet("/FrontFace")
 public class FrontFace extends HttpServlet {

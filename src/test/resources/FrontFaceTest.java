@@ -7,7 +7,7 @@ import org.junit.Test;
 public class FrontFaceTest {
 	
 	/**
-	 * Test method for {@link mainWeb.ConnectionDB#FrontFaceTest()}.
+	 * Test method for {@link main.resources.ConnectionDB#FrontFaceTest()}.
 	 */
 	@Test
 	public void testDoGet() {
