@@ -1,4 +1,4 @@
-package mainWebTest;
+package test.resources;
 
 import static org.junit.Assert.fail;
 
