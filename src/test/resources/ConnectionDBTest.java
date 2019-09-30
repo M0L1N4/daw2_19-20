@@ -3,7 +3,13 @@
  */
 package test.resources;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.fail;
+
+import java.sql.DriverManager;
+import java.sql.SQLException;
 
 import org.junit.Test;
 
@@ -28,7 +34,7 @@ public class ConnectionDBTest {
 	 */
 	@Test
 	public void testGetConnection() {
-		assertEquals ("Retorna un objecte Connexió a null", null,ConnectionDB.getConnection());
+		assertEquals("Retorna un objecte Connexió a null", null,ConnectionDB.getConnection());
 	}
 
 	/**
@@ -36,7 +42,12 @@ public class ConnectionDBTest {
 	 */
 	@Test
 	public void testSetConnection() {
-		fail("Not yet implemented");
+		try {
+			ConnectionDB.setConnection(DriverManager.getConnection("jdbc:sqlite:Daw2_DB.db"));
+		} catch (SQLException e) {
+			e.printStackTrace();
+			fail("Connection not performed");
+		}
 	}
 
 	/**
@@ -44,7 +55,13 @@ public class ConnectionDBTest {
 	 */
 	@Test
 	public void testOpenConnection() {
-		fail("Not yet implemented");
+		try {
+			ConnectionDB.openConnection();
+			assertNotNull(ConnectionDB.getConnection());
+		} catch (SQLException e) {
+			e.printStackTrace();
+			fail("Connection not performed");
+		}
 	}
 
 	/**
@@ -52,7 +69,7 @@ public class ConnectionDBTest {
 	 */
 	@Test
 	public void testCloseConnection() {
-		fail("Not yet implemented");
+
 	}
 
 	/**
