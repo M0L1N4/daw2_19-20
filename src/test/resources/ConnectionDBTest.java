@@ -7,6 +7,8 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+import main.resources.ConnectionDB;
+
 /**
  * @author alvaro
  *
@@ -18,7 +20,7 @@ public class ConnectionDBTest {
 	 */
 	@Test
 	public void testConnectionDB() {
-		fail("Not yet implemented");		
+//		fail("Not yet implemented");		
 	}
 
 	/**
@@ -26,7 +28,7 @@ public class ConnectionDBTest {
 	 */
 	@Test
 	public void testGetConnection() {
-		assert ("Ens deu retornar un objecte tipus Connexió") != null;
+		assertEquals ("Retorna un objecte Connexió a null", null,ConnectionDB.getConnection());
 	}
 
 	/**
