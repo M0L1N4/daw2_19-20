@@ -10,12 +10,20 @@
 	<!-- https://mincong-h.github.io/2017/12/09/sonar-integration-with-maven/ 
 		https://crunchify.com/how-to-create-a-war-file-from-eclipse-using-maven-plugin-apache-maven-war-plugin-usage/ 
 		https://guides.gradle.org/building-java-web-applications/
-		-->
+	
 <properties>
   <sonar.projectKey>M0L1N4_daw2_19-20</sonar.projectKey>
   <sonar.organization>m0l1n4-github</sonar.organization>
   <sonar.host.url>https://sonarcloud.io</sonar.host.url>
   <sonar.login>fc8e00beaa25f0cc6157d23f9ac35f0a550c3c0f</sonar.login>
+</properties>
+-->
+
+<properties>
+  <sonar.projectKey>M0L1N4_daw2_19-20</sonar.projectKey>
+  <sonar.organization>m0l1n4-github</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  <sonar.login>474a09896401d4208c691f99ecda17c2aad84e7f</sonar.login>
 
 
 </properties>
