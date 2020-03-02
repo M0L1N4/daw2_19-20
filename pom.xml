@@ -11,19 +11,21 @@
 		https://crunchify.com/how-to-create-a-war-file-from-eclipse-using-maven-plugin-apache-maven-war-plugin-usage/ 
 		https://guides.gradle.org/building-java-web-applications/
 		-->
-<!-- 	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-		<sonar.organization>m0l1n4-github</sonar.organization>
-	</properties>-->
+<!-- 	
 	
 	<properties>
   <sonar.projectKey>M0L1N4_daw2_19-20</sonar.projectKey>
   <sonar.organization>m0l1n4-github</sonar.organization>
   <sonar.host.url>https://sonarcloud.io</sonar.host.url>
   <sonar.login>5c8954b432e195fb6f58fd71f9ad58c9dbd15388</sonar.login>
+</properties> -->
+
+<properties>
+  <sonar.projectKey>M0L1N4_daw2_19-20</sonar.projectKey>
+  <sonar.organization>m0l1n4-github</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 </properties>
+
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 		<plugins>
